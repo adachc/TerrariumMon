@@ -1,0 +1,25 @@
+{
+  "name": "terrariummon",
+  "version": "1.0.0",
+  "description": "Saves terrarium metrics to mongodb and serves information over a webserver",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adachc/TerrariumMon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adachc/TerrariumMon/issues"
+  },
+  "homepage": "https://github.com/adachc/TerrariumMon#readme",
+  "dependencies": {
+    "date-and-time": "^2.1.0",
+    "mongodb": "^4.3.1",
+    "node-cron": "^3.0.0",
+    "node-dht-sensor": "^0.4.3"
+  }
+}
